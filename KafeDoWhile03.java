@@ -24,7 +24,7 @@ public class KafeDoWhile03 {
             Roti = sc.nextInt();
             totalHarga = (Kopi * hargaKopi) + (Teh * hargaTeh) + (Roti * hargaRoti);
             System.out.println("Total Harga: Rp " + totalHarga);
-            sc.nextLine(); // membuang sisa enter setelah nextInt()
+            sc.nextLine(); 
         } while (true);
 
         System.out.println("Semua Transaksi Selesai");
