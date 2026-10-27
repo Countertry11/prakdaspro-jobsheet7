@@ -35,7 +35,7 @@ public class tugas1_03 {
 
         System.out.println("Total yangibayar: Rp " + hargaBayar);
         System.out.println("apakah anda ingin membeli tiket lagi? (ya/tidak)");
-        String jawaban = sc.next();
+        String tiket = sc.next();
 
         totalTiket += jumlahTiket;
         totalPenjualan += hargaBayar;
